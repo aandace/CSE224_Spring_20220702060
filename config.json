@@ -1,0 +1,8 @@
+{
+    "DESIGN_NAME": "twos_complement",
+    "VERILOG_FILES": ["dir::src/twos_complement.v"],
+    "FP_PDN_MULTILAYER": true,
+    "FP_CORE_UTIL": 20,
+    "FP_ASPECT_RATIO": 1.0,
+    "FP_CORE_MARGIN": 2
+}
