@@ -1,0 +1,25 @@
+
+55. Printing statistics.
+
+=== ZeroToFiveCounter ===
+
+   Number of wires:                174
+   Number of wire bits:            236
+   Number of public wires:           5
+   Number of public wire bits:      40
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                233
+     $_ANDNOT_                      59
+     $_AND_                          5
+     $_MUX_                          4
+     $_NAND_                        13
+     $_NOR_                          2
+     $_NOT_                         34
+     $_ORNOT_                       20
+     $_OR_                          37
+     $_XNOR_                         1
+     $_XOR_                         27
+     sky130_fd_sc_hd__dfrtp_2       31
+

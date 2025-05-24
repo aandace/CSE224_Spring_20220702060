@@ -1,0 +1,10 @@
+{
+    "DESIGN_NAME": "ZeroToFiveCounter",
+    "VERILOG_FILES": [
+        "dir::src/ZeroToFiveCounter.v"
+    ],
+    "CLOCK_PORT": "clk",
+    "CLOCK_PERIOD": 10.0,
+    "FP_PDN_MULTILAYER": true,
+    "top_module": "ZeroToFiveCounter"
+}
