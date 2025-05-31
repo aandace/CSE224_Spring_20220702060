@@ -1,0 +1,19 @@
+Design Name: top_module_project5
+Run Directory: /openlane/designs/lab5_project/runs/RUN_2025.05.31_15.34.51
+----------------------------------------
+
+Magic DRC Summary:
+Source: /openlane/designs/lab5_project/runs/RUN_2025.05.31_15.34.51/reports/signoff/drc.rpt
+Total Magic DRC violations is 0
+----------------------------------------
+
+LVS Summary:
+Source: /openlane/designs/lab5_project/runs/RUN_2025.05.31_15.34.51/logs/signoff/39-top_module_project5.lef.lvs.log
+Number of nets: 2137                       |Number of nets: 2137                       
+Design is LVS clean.
+----------------------------------------
+
+Antenna Summary:
+Source: /openlane/designs/lab5_project/runs/RUN_2025.05.31_15.34.51/logs/signoff/42-arc.log
+Pin violations: 104
+Net violations: 104

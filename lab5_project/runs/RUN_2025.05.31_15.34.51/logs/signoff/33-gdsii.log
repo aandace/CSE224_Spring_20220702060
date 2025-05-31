@@ -1,0 +1,568 @@
+
+Magic 8.3 revision 483 - Compiled on Sun Jun  2 18:57:41 UTC 2024.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130(): scaleFactor=2, multiplier=2
+The following types are not handled by extraction and will be treated as non-electrical types:
+    ubm 
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Using technology "sky130A", version 1.0.466-0-gbdc9412
+Reading LEF data from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd__nom.tlef.
+This action cannot be undone.
+LEF read, Line 78 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 79 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 112 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 114 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 115 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 121 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 122 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 123 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 156 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 164 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 165 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 167 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 168 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 169 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 206 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 207 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 209 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 210 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 211 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 248 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 249 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 251 (Message): Unknown keyword "MAXIMUMDENSITY" in LEF file; ignoring.
+LEF read, Line 252 (Message): Unknown keyword "DENSITYCHECKWINDOW" in LEF file; ignoring.
+LEF read, Line 253 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ignoring.
+LEF read, Line 290 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
+LEF read, Line 291 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read: Processed 797 lines.
+Reading DEF data from file /openlane/designs/lab5_project/runs/RUN_2025.05.31_15.34.51/results/routing/top_module_project5.def.
+This action cannot be undone.
+  Processed 4 vias total.
+Warning: cell <sky130_fd_sc_hd__diode_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__diode_2.mag is not writeable
+Cell sky130_fd_sc_hd__diode_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__decap_6> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__decap_6.mag is not writeable
+Cell sky130_fd_sc_hd__decap_6 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__fill_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__fill_1.mag is not writeable
+Cell sky130_fd_sc_hd__fill_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_ef_sc_hd__decap_12> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_ef_sc_hd__decap_12.mag is not writeable
+Cell sky130_ef_sc_hd__decap_12 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__decap_3> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__decap_3.mag is not writeable
+Cell sky130_fd_sc_hd__decap_3 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__fill_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__fill_2.mag is not writeable
+Cell sky130_fd_sc_hd__fill_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__decap_8> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__decap_8.mag is not writeable
+Cell sky130_fd_sc_hd__decap_8 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__decap_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__decap_4.mag is not writeable
+Cell sky130_fd_sc_hd__decap_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__tapvpwrvgnd_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__tapvpwrvgnd_1.mag is not writeable
+Cell sky130_fd_sc_hd__tapvpwrvgnd_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nand2_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nand2_1.mag is not writeable
+Cell sky130_fd_sc_hd__nand2_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__or4_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__or4_2.mag is not writeable
+Cell sky130_fd_sc_hd__or4_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__or4_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__or4_4.mag is not writeable
+Cell sky130_fd_sc_hd__or4_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__or4b_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__or4b_4.mag is not writeable
+Cell sky130_fd_sc_hd__or4b_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__or4b_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__or4b_2.mag is not writeable
+Cell sky130_fd_sc_hd__or4b_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__or4bb_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__or4bb_4.mag is not writeable
+Cell sky130_fd_sc_hd__or4bb_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__buf_12> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__buf_12.mag is not writeable
+Cell sky130_fd_sc_hd__buf_12 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__and2b_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__and2b_4.mag is not writeable
+Cell sky130_fd_sc_hd__and2b_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__clkbuf_8> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__clkbuf_8.mag is not writeable
+Cell sky130_fd_sc_hd__clkbuf_8 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__xor2_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__xor2_4.mag is not writeable
+Cell sky130_fd_sc_hd__xor2_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__and3_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__and3_4.mag is not writeable
+Cell sky130_fd_sc_hd__and3_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a21oi_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a21oi_1.mag is not writeable
+Cell sky130_fd_sc_hd__a21oi_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nor2_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nor2_4.mag is not writeable
+Cell sky130_fd_sc_hd__nor2_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__and2_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__and2_4.mag is not writeable
+Cell sky130_fd_sc_hd__and2_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nor2_8> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nor2_8.mag is not writeable
+Cell sky130_fd_sc_hd__nor2_8 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__xor2_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__xor2_2.mag is not writeable
+Cell sky130_fd_sc_hd__xor2_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a31o_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a31o_4.mag is not writeable
+Cell sky130_fd_sc_hd__a31o_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nand2_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nand2_4.mag is not writeable
+Cell sky130_fd_sc_hd__nand2_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nor2_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nor2_2.mag is not writeable
+Cell sky130_fd_sc_hd__nor2_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o21ai_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o21ai_4.mag is not writeable
+Cell sky130_fd_sc_hd__o21ai_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a21oi_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a21oi_2.mag is not writeable
+Cell sky130_fd_sc_hd__a21oi_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a21oi_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a21oi_4.mag is not writeable
+Cell sky130_fd_sc_hd__a21oi_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o21ai_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o21ai_2.mag is not writeable
+Cell sky130_fd_sc_hd__o21ai_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a21boi_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a21boi_2.mag is not writeable
+Cell sky130_fd_sc_hd__a21boi_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o21a_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o21a_4.mag is not writeable
+Cell sky130_fd_sc_hd__o21a_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__and4_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__and4_2.mag is not writeable
+Cell sky130_fd_sc_hd__and4_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__and4_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__and4_4.mag is not writeable
+Cell sky130_fd_sc_hd__and4_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nor2_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nor2_1.mag is not writeable
+Cell sky130_fd_sc_hd__nor2_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__or2_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__or2_4.mag is not writeable
+Cell sky130_fd_sc_hd__or2_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__inv_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__inv_4.mag is not writeable
+Cell sky130_fd_sc_hd__inv_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__clkbuf_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__clkbuf_4.mag is not writeable
+Cell sky130_fd_sc_hd__clkbuf_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nand3_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nand3_4.mag is not writeable
+Cell sky130_fd_sc_hd__nand3_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o211a_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o211a_4.mag is not writeable
+Cell sky130_fd_sc_hd__o211a_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__xnor2_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__xnor2_4.mag is not writeable
+Cell sky130_fd_sc_hd__xnor2_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__and2_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__and2_2.mag is not writeable
+Cell sky130_fd_sc_hd__and2_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__mux2_8> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__mux2_8.mag is not writeable
+Cell sky130_fd_sc_hd__mux2_8 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__mux2_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__mux2_1.mag is not writeable
+Cell sky130_fd_sc_hd__mux2_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__dlymetal6s2s_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__dlymetal6s2s_1.mag is not writeable
+Cell sky130_fd_sc_hd__dlymetal6s2s_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__buf_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__buf_4.mag is not writeable
+Cell sky130_fd_sc_hd__buf_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__mux2_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__mux2_2.mag is not writeable
+Cell sky130_fd_sc_hd__mux2_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__buf_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__buf_2.mag is not writeable
+Cell sky130_fd_sc_hd__buf_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__buf_8> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__buf_8.mag is not writeable
+Cell sky130_fd_sc_hd__buf_8 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__clkbuf_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__clkbuf_1.mag is not writeable
+Cell sky130_fd_sc_hd__clkbuf_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__mux2_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__mux2_4.mag is not writeable
+Cell sky130_fd_sc_hd__mux2_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__buf_6> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__buf_6.mag is not writeable
+Cell sky130_fd_sc_hd__buf_6 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__clkbuf_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__clkbuf_2.mag is not writeable
+Cell sky130_fd_sc_hd__clkbuf_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__buf_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__buf_1.mag is not writeable
+Cell sky130_fd_sc_hd__buf_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o21ai_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o21ai_1.mag is not writeable
+Cell sky130_fd_sc_hd__o21ai_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__inv_6> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__inv_6.mag is not writeable
+Cell sky130_fd_sc_hd__inv_6 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__clkinv_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__clkinv_4.mag is not writeable
+Cell sky130_fd_sc_hd__clkinv_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nor2b_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nor2b_1.mag is not writeable
+Cell sky130_fd_sc_hd__nor2b_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nand2b_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nand2b_4.mag is not writeable
+Cell sky130_fd_sc_hd__nand2b_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nand2_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nand2_2.mag is not writeable
+Cell sky130_fd_sc_hd__nand2_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__inv_16> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__inv_16.mag is not writeable
+Cell sky130_fd_sc_hd__inv_16 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nand2_8> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nand2_8.mag is not writeable
+Cell sky130_fd_sc_hd__nand2_8 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__inv_12> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__inv_12.mag is not writeable
+Cell sky130_fd_sc_hd__inv_12 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a21boi_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a21boi_4.mag is not writeable
+Cell sky130_fd_sc_hd__a21boi_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__and3b_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__and3b_4.mag is not writeable
+Cell sky130_fd_sc_hd__and3b_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a221o_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a221o_2.mag is not writeable
+Cell sky130_fd_sc_hd__a221o_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__inv_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__inv_2.mag is not writeable
+Cell sky130_fd_sc_hd__inv_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o31a_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o31a_4.mag is not writeable
+Cell sky130_fd_sc_hd__o31a_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__or2b_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__or2b_4.mag is not writeable
+Cell sky130_fd_sc_hd__or2b_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a21o_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a21o_2.mag is not writeable
+Cell sky130_fd_sc_hd__a21o_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o21a_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o21a_2.mag is not writeable
+Cell sky130_fd_sc_hd__o21a_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o22ai_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o22ai_4.mag is not writeable
+Cell sky130_fd_sc_hd__o22ai_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__or2_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__or2_2.mag is not writeable
+Cell sky130_fd_sc_hd__or2_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a21o_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a21o_4.mag is not writeable
+Cell sky130_fd_sc_hd__a21o_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a221o_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a221o_4.mag is not writeable
+Cell sky130_fd_sc_hd__a221o_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nor3_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nor3_4.mag is not writeable
+Cell sky130_fd_sc_hd__nor3_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__xnor2_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__xnor2_2.mag is not writeable
+Cell sky130_fd_sc_hd__xnor2_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o22a_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o22a_4.mag is not writeable
+Cell sky130_fd_sc_hd__o22a_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a31oi_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a31oi_4.mag is not writeable
+Cell sky130_fd_sc_hd__a31oi_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nor3_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nor3_1.mag is not writeable
+Cell sky130_fd_sc_hd__nor3_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__or3_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__or3_4.mag is not writeable
+Cell sky130_fd_sc_hd__or3_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a21bo_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a21bo_4.mag is not writeable
+Cell sky130_fd_sc_hd__a21bo_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a2bb2o_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a2bb2o_4.mag is not writeable
+Cell sky130_fd_sc_hd__a2bb2o_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nand3_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nand3_1.mag is not writeable
+Cell sky130_fd_sc_hd__nand3_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a32o_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a32o_4.mag is not writeable
+Cell sky130_fd_sc_hd__a32o_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o31ai_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o31ai_2.mag is not writeable
+Cell sky130_fd_sc_hd__o31ai_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__or3_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__or3_2.mag is not writeable
+Cell sky130_fd_sc_hd__or3_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nor4_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nor4_1.mag is not writeable
+Cell sky130_fd_sc_hd__nor4_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__xnor2_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__xnor2_1.mag is not writeable
+Cell sky130_fd_sc_hd__xnor2_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o31ai_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o31ai_4.mag is not writeable
+Cell sky130_fd_sc_hd__o31ai_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__or3b_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__or3b_4.mag is not writeable
+Cell sky130_fd_sc_hd__or3b_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o21ba_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o21ba_4.mag is not writeable
+Cell sky130_fd_sc_hd__o21ba_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nor3_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nor3_2.mag is not writeable
+Cell sky130_fd_sc_hd__nor3_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a211oi_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a211oi_1.mag is not writeable
+Cell sky130_fd_sc_hd__a211oi_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o21ba_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o21ba_2.mag is not writeable
+Cell sky130_fd_sc_hd__o21ba_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nor3b_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nor3b_1.mag is not writeable
+Cell sky130_fd_sc_hd__nor3b_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o31ai_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o31ai_1.mag is not writeable
+Cell sky130_fd_sc_hd__o31ai_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o21a_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o21a_1.mag is not writeable
+Cell sky130_fd_sc_hd__o21a_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a2bb2o_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a2bb2o_2.mag is not writeable
+Cell sky130_fd_sc_hd__a2bb2o_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o211a_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o211a_2.mag is not writeable
+Cell sky130_fd_sc_hd__o211a_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__clkinv_8> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__clkinv_8.mag is not writeable
+Cell sky130_fd_sc_hd__clkinv_8 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o2bb2a_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o2bb2a_4.mag is not writeable
+Cell sky130_fd_sc_hd__o2bb2a_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__and2b_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__and2b_2.mag is not writeable
+Cell sky130_fd_sc_hd__and2b_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a211o_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a211o_4.mag is not writeable
+Cell sky130_fd_sc_hd__a211o_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o22a_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o22a_1.mag is not writeable
+Cell sky130_fd_sc_hd__o22a_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__and3_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__and3_2.mag is not writeable
+Cell sky130_fd_sc_hd__and3_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o32ai_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o32ai_4.mag is not writeable
+Cell sky130_fd_sc_hd__o32ai_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a22o_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a22o_4.mag is not writeable
+Cell sky130_fd_sc_hd__a22o_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o221a_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o221a_4.mag is not writeable
+Cell sky130_fd_sc_hd__o221a_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a22o_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a22o_1.mag is not writeable
+Cell sky130_fd_sc_hd__a22o_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__and2b_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__and2b_1.mag is not writeable
+Cell sky130_fd_sc_hd__and2b_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a311oi_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a311oi_4.mag is not writeable
+Cell sky130_fd_sc_hd__a311oi_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__and2_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__and2_1.mag is not writeable
+Cell sky130_fd_sc_hd__and2_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__xor2_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__xor2_1.mag is not writeable
+Cell sky130_fd_sc_hd__xor2_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__clkbuf_16> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__clkbuf_16.mag is not writeable
+Cell sky130_fd_sc_hd__clkbuf_16 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a21bo_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a21bo_1.mag is not writeable
+Cell sky130_fd_sc_hd__a21bo_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o2bb2a_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o2bb2a_1.mag is not writeable
+Cell sky130_fd_sc_hd__o2bb2a_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o311a_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o311a_4.mag is not writeable
+Cell sky130_fd_sc_hd__o311a_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o21bai_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o21bai_4.mag is not writeable
+Cell sky130_fd_sc_hd__o21bai_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a21bo_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a21bo_2.mag is not writeable
+Cell sky130_fd_sc_hd__a21bo_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a22o_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a22o_2.mag is not writeable
+Cell sky130_fd_sc_hd__a22o_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o211ai_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o211ai_4.mag is not writeable
+Cell sky130_fd_sc_hd__o211ai_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__or2b_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__or2b_2.mag is not writeable
+Cell sky130_fd_sc_hd__or2b_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o221a_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o221a_2.mag is not writeable
+Cell sky130_fd_sc_hd__o221a_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a2bb2o_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a2bb2o_1.mag is not writeable
+Cell sky130_fd_sc_hd__a2bb2o_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o221a_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o221a_1.mag is not writeable
+Cell sky130_fd_sc_hd__o221a_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__or2_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__or2_1.mag is not writeable
+Cell sky130_fd_sc_hd__or2_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__o211a_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__o211a_1.mag is not writeable
+Cell sky130_fd_sc_hd__o211a_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__nor3b_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__nor3b_4.mag is not writeable
+Cell sky130_fd_sc_hd__nor3b_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a211o_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a211o_2.mag is not writeable
+Cell sky130_fd_sc_hd__a211o_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__a22oi_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__a22oi_4.mag is not writeable
+Cell sky130_fd_sc_hd__a22oi_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__dfxtp_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__dfxtp_4.mag is not writeable
+Cell sky130_fd_sc_hd__dfxtp_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__dfxtp_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__dfxtp_2.mag is not writeable
+Cell sky130_fd_sc_hd__dfxtp_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__dfxtp_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__dfxtp_1.mag is not writeable
+Cell sky130_fd_sc_hd__dfxtp_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__dfrtp_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__dfrtp_4.mag is not writeable
+Cell sky130_fd_sc_hd__dfrtp_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__bufinv_8> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__bufinv_8.mag is not writeable
+Cell sky130_fd_sc_hd__bufinv_8 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__bufinv_16> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__bufinv_16.mag is not writeable
+Cell sky130_fd_sc_hd__bufinv_16 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__clkinvlp_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__clkinvlp_2.mag is not writeable
+Cell sky130_fd_sc_hd__clkinvlp_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__clkinv_1> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__clkinv_1.mag is not writeable
+Cell sky130_fd_sc_hd__clkinv_1 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__clkinvlp_4> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__clkinvlp_4.mag is not writeable
+Cell sky130_fd_sc_hd__clkinvlp_4 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+Warning: cell <sky130_fd_sc_hd__clkinv_2> from file /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag/sky130_fd_sc_hd__clkinv_2.mag is not writeable
+Cell sky130_fd_sc_hd__clkinv_2 read from path /openlane/pdks/sky130A/libs.ref/sky130_fd_sc_hd/mag
+  Processed 102846 subcell instances total.
+  Processed 48 pins total.
+  Processed 2 special nets total.
+  Processed 2109 nets total.
+DEF read: Processed 176201 lines.
+Moving label "RF.registers\[20\]\[20\]" from metal2 to via2 in cell top_module_project5.
+Moving label "RF.registers\[25\]\[28\]" from metal2 to via1 in cell top_module_project5.
+Moving label "_0003_" from metal3 to via3 in cell top_module_project5.
+Moving label "_0023_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0042_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0080_" from metal1 to via1 in cell top_module_project5.
+Moving label "_0081_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0105_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0122_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0161_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0202_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0212_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0254_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0312_" from metal2 to via1 in cell top_module_project5.
+Moving label "_0404_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0486_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0506_" from metal3 to via3 in cell top_module_project5.
+Moving label "_0549_" from metal1 to via1 in cell top_module_project5.
+Moving label "_0586_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0665_" from metal1 to via1 in cell top_module_project5.
+Moving label "_0690_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0693_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0710_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0726_" from metal2 to via1 in cell top_module_project5.
+Moving label "_0748_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0880_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0885_" from metal1 to via1 in cell top_module_project5.
+Moving label "_0889_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0905_" from metal2 to via1 in cell top_module_project5.
+Moving label "_0908_" from metal2 to via1 in cell top_module_project5.
+Moving label "_0933_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0936_" from metal3 to via3 in cell top_module_project5.
+Moving label "_0947_" from metal2 to via2 in cell top_module_project5.
+Moving label "_0959_" from metal3 to via3 in cell top_module_project5.
+Moving label "_1002_" from metal2 to via1 in cell top_module_project5.
+Moving label "_1006_" from metal2 to via2 in cell top_module_project5.
+Moving label "_1022_" from metal2 to via2 in cell top_module_project5.
+Moving label "_1045_" from metal1 to via1 in cell top_module_project5.
+Moving label "_1055_" from metal2 to via2 in cell top_module_project5.
+Moving label "_1058_" from metal2 to via2 in cell top_module_project5.
+Moving label "_1093_" from metal2 to via2 in cell top_module_project5.
+Moving label "_1119_" from metal2 to via2 in cell top_module_project5.
+Moving label "_1129_" from metal2 to via2 in cell top_module_project5.
+Moving label "_1139_" from metal2 to via2 in cell top_module_project5.
+Moving label "_1169_" from metal2 to via2 in cell top_module_project5.
+Moving label "_1217_" from metal2 to via2 in cell top_module_project5.
+Moving label "_1259_" from metal2 to via2 in cell top_module_project5.
+Moving label "_1261_" from metal2 to via2 in cell top_module_project5.
+Moving label "_1268_" from metal2 to via2 in cell top_module_project5.
+Moving label "_1280_" from metal2 to via2 in cell top_module_project5.
+Moving label "an[0]" from metal2 to via2 in cell top_module_project5.
+Moving label "an[2]" from metal2 to via2 in cell top_module_project5.
+Moving label "clknet_2_0_0_clk" from metal2 to via2 in cell top_module_project5.
+Moving label "clknet_2_1_0_clk" from metal2 to via2 in cell top_module_project5.
+Moving label "clknet_2_2_0_clk" from metal3 to via3 in cell top_module_project5.
+Moving label "net165" from metal2 to via2 in cell top_module_project5.
+Moving label "net172" from metal3 to via3 in cell top_module_project5.
+Moving label "net323" from metal2 to via2 in cell top_module_project5.
+Moving label "net367" from metal2 to via2 in cell top_module_project5.
+Moving label "net384" from metal2 to via2 in cell top_module_project5.
+Moving label "net39" from metal2 to via2 in cell top_module_project5.
+Moving label "net471" from metal3 to via3 in cell top_module_project5.
+Moving label "result[0]" from metal2 to via2 in cell top_module_project5.
+Moving label "result[10]" from metal2 to via2 in cell top_module_project5.
+Moving label "result[12]" from metal2 to via2 in cell top_module_project5.
+Moving label "result[14]" from metal2 to via2 in cell top_module_project5.
+Moving label "result[16]" from metal2 to via2 in cell top_module_project5.
+Moving label "result[18]" from metal2 to via2 in cell top_module_project5.
+Moving label "result[20]" from metal2 to via2 in cell top_module_project5.
+Moving label "result[22]" from metal2 to via2 in cell top_module_project5.
+Moving label "result[24]" from metal2 to via2 in cell top_module_project5.
+Moving label "result[26]" from metal2 to via2 in cell top_module_project5.
+Moving label "result[2]" from metal2 to via2 in cell top_module_project5.
+Moving label "result[30]" from metal2 to via2 in cell top_module_project5.
+Moving label "result[4]" from metal2 to via2 in cell top_module_project5.
+Moving label "result[6]" from metal2 to via2 in cell top_module_project5.
+Moving label "seg_out[0]" from metal2 to via2 in cell top_module_project5.
+Moving label "seg_out[2]" from metal2 to via2 in cell top_module_project5.
+Moving label "seg_out[4]" from metal2 to via2 in cell top_module_project5.
+Moving label "seg_out[6]" from metal2 to via2 in cell top_module_project5.
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  1000.000 x 1000.000  ( 0.000,  0.000), ( 1000.000,  1000.000)  1000000.000
+lambda:   100000.00 x 100000.00  (  0.00,  0.00 ), ( 100000.00,  100000.00)  10000000000.00
+internal: 200000 x 200000  (     0,  0    ), ( 200000,  200000)  40000000000
+   Copying output for cell sky130_ef_sc_hd__decap_12 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__decap_3 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__fill_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__tapvpwrvgnd_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__decap_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__decap_6 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__decap_8 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand2_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__fill_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__diode_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21o_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__mux2_8 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__buf_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__dfxtp_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a221o_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__buf_12 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or4b_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a2bb2o_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or2b_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__buf_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or3_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__inv_6 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a31o_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or3b_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkbuf_8 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkinvlp_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or2_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21ai_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21oi_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o221a_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or2_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21o_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21a_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a31oi_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o31ai_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__dfrtp_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a211o_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o221a_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__buf_6 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__buf_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__mux2_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand2_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and2b_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__mux2_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21oi_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and3_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand2_8 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__buf_8 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and2_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o22a_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and2_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__xnor2_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor2_8 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21bo_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and4_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkbuf_16 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a22o_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or2_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__mux2_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkbuf_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand3_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and2b_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkbuf_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkbuf_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor3_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a22o_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and2b_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o22ai_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a221o_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and2_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a2bb2o_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__dfxtp_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a32o_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a211oi_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor2_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__dlymetal6s2s_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor2_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__dfxtp_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21ai_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21ai_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a311oi_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21a_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a2bb2o_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or4_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21bo_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__xor2_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__xnor2_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21ba_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor3b_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__xor2_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21ba_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__bufinv_8 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o211a_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o31ai_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21oi_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21bai_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand2_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__inv_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand3_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a22oi_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor4_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor2_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a211o_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o32ai_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and3_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or4_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__inv_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o31a_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o31ai_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor3_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkinv_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o2bb2a_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and3b_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__xnor2_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o211a_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o211ai_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21boi_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__inv_16 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or3_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or4b_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o2bb2a_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor3_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor2b_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkinv_8 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21bo_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__inv_12 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nor3b_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o211a_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a22o_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkinvlp_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__bufinv_16 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o311a_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o221a_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__xor2_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkinv_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__clkinv_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__and4_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or4bb_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__or2b_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o21a_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__a21boi_2 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__o22a_1 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Copying output for cell sky130_fd_sc_hd__nand2b_4 from $PDKPATH/libs.ref/sky130_fd_sc_hd/gds/sky130_fd_sc_hd.gds
+   Generating output for cell top_module_project5
+[INFO]: GDS Write Complete
