@@ -1,0 +1,8 @@
+[WARNING GRT-0026] Missing route to pin load_slew5/A.
+[WARNING GRT-0026] Missing route to pin load_slew4/A.
+[WARNING GRT-0026] Missing route to pin load_slew3/A.
+[WARNING GRT-0026] Missing route to pin _3279_/B.
+[WARNING GRT-0026] Missing route to pin _3592_/D.
+[WARNING GRT-0026] Missing route to pin wire1/A.
+[WARNING GRT-0026] Missing route to pin _3279_/A.
+[WARNING] Did not save OpenROAD database!
