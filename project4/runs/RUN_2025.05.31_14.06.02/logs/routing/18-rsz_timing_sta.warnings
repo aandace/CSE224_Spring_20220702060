@@ -1,0 +1,25 @@
+[WARNING GRT-0026] Missing route to pin _05509_/B1.
+[WARNING GRT-0026] Missing route to pin _05528_/A.
+[WARNING GRT-0026] Missing route to pin _05456_/X.
+[WARNING GRT-0026] Missing route to pin _05510_/B.
+[WARNING GRT-0026] Missing route to pin _05509_/X.
+[WARNING GRT-0026] Missing route to pin _05528_/B.
+[WARNING GRT-0026] Missing route to pin _05553_/A.
+[WARNING GRT-0026] Missing route to pin _05553_/B.
+[WARNING GRT-0026] Missing route to pin _05553_/Y.
+[WARNING GRT-0026] Missing route to pin _05629_/B1.
+[WARNING GRT-0026] Missing route to pin _05629_/X.
+[WARNING GRT-0026] Missing route to pin _05788_/B.
+[WARNING GRT-0026] Missing route to pin _05788_/A.
+[WARNING GRT-0026] Missing route to pin input80/A.
+[WARNING GRT-0026] Missing route to pin input81/A.
+[WARNING GRT-0026] Missing route to pin input108/A.
+[WARNING GRT-0026] Missing route to pin input80/X.
+[WARNING GRT-0026] Missing route to pin _05456_/C.
+[WARNING GRT-0026] Missing route to pin _05509_/A2.
+[WARNING GRT-0026] Missing route to pin _05509_/A1.
+[WARNING GRT-0026] Missing route to pin _05113_/C.
+[WARNING GRT-0026] Missing route to pin _05629_/A1.
+[WARNING GRT-0026] Missing route to pin input106/X.
+[WARNING GRT-0026] Missing route to pin input108/X.
+[WARNING] Did not save OpenROAD database!

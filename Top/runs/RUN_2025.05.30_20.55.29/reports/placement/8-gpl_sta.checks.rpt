@@ -1,0 +1,113 @@
+
+===========================================================================
+report_checks -unconstrained
+===========================================================================
+======================= Typical Corner ===================================
+
+Startpoint: _328_ (rising edge-triggered flip-flop clocked by core_clock)
+Endpoint: _328_ (rising edge-triggered flip-flop clocked by core_clock)
+Path Group: core_clock
+Path Type: max
+
+Fanout     Cap    Slew   Delay    Time   Description
+-----------------------------------------------------------------------------
+                  0.00    0.00    0.00   clock core_clock (rise edge)
+                          0.00    0.00   clock network delay (ideal)
+                  0.00    0.00    0.00 ^ _328_/CLK (sky130_fd_sc_hd__dfrtp_2)
+     2    0.01    0.05    0.38    0.38 v _328_/Q (sky130_fd_sc_hd__dfrtp_2)
+                                         dsa[30].last_carry (net)
+                  0.05    0.00    0.38 v _116_/B1 (sky130_fd_sc_hd__a21o_2)
+     2    0.01    0.04    0.20    0.58 v _116_/X (sky130_fd_sc_hd__a21o_2)
+                                         _041_ (net)
+                  0.04    0.00    0.58 v _210_/A2 (sky130_fd_sc_hd__a21bo_2)
+     1    0.00    0.03    0.20    0.78 v _210_/X (sky130_fd_sc_hd__a21bo_2)
+                                         dsa[30].last_carry_next (net)
+                  0.03    0.00    0.78 v _328_/D (sky130_fd_sc_hd__dfrtp_2)
+                                  0.78   data arrival time
+
+                  0.00   10.00   10.00   clock core_clock (rise edge)
+                          0.00   10.00   clock network delay (ideal)
+                          0.00   10.00   clock reconvergence pessimism
+                                 10.00 ^ _328_/CLK (sky130_fd_sc_hd__dfrtp_2)
+                         -0.12    9.88   library setup time
+                                  9.88   data required time
+-----------------------------------------------------------------------------
+                                  9.88   data required time
+                                 -0.78   data arrival time
+-----------------------------------------------------------------------------
+                                  9.10   slack (MET)
+
+
+
+
+===========================================================================
+report_checks --slack_max -0.01
+============================================================================
+======================= Typical Corner ===================================
+
+No paths found.
+
+
+===========================================================================
+ report_check_types -max_slew -max_cap -max_fanout -violators
+============================================================================
+======================= Typical Corner ===================================
+
+
+max slew violations count Typical: 0
+max fanout violations count Typical: 0
+max cap violations count Typical: 0
+
+===========================================================================
+report_parasitic_annotation -report_unannotated
+============================================================================
+Found 1 unannotated drivers.
+ clk
+Found 0 partially unannotated drivers.
+
+===========================================================================
+max slew violation count 0
+max fanout violation count 0
+max cap violation count 0
+============================================================================
+
+===========================================================================
+check_setup -verbose -unconstrained_endpoints -multiple_clock -no_clock -no_input_delay -loops -generated_clocks
+===========================================================================
+Warning: There are 34 input ports missing set_input_delay.
+  a[0]
+  a[10]
+  a[11]
+  a[12]
+  a[13]
+  a[14]
+  a[15]
+  a[16]
+  a[17]
+  a[18]
+  a[19]
+  a[1]
+  a[20]
+  a[21]
+  a[22]
+  a[23]
+  a[24]
+  a[25]
+  a[26]
+  a[27]
+  a[28]
+  a[29]
+  a[2]
+  a[30]
+  a[31]
+  a[3]
+  a[4]
+  a[5]
+  a[6]
+  a[7]
+  a[8]
+  a[9]
+  rst
+  x
+Warning: There is 1 unconstrained endpoint.
+  y
